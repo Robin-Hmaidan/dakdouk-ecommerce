@@ -1,27 +1,46 @@
 # Dakdouk Global Gate — E-Commerce Platform
 
-A full-stack e-commerce platform built and deployed for a live retail client
-in Lebanon, covering multiple product categories including clothing, fireworks,
-and toys.
+An online store for a live retail client in Lebanon, covering several product categories (clothing, fireworks and toys) across multiple store branches, with a customer storefront and an admin dashboard.
 
----
+**Status:** live in production &nbsp;·&nbsp; **Role:** freelance full-stack developer (2024)
+
+> This is a sanitized portfolio version. Sensitive configuration, credentials, payment keys and client-specific data have been removed. No real user data is included.
+
+![Home page](screenshots/home.png)
 
 ## Overview
 
-Dakdouk Global Gate is a multi-category online store developed end-to-end for
-an active retail business. The platform delivers a complete shopping experience
-for customers while giving the business full control through a dedicated admin
-dashboard.
+The client needed a single online shop for an active retail business with several branches. Customers can browse products by category and by store, manage a cart, check out and track their orders. The business manages products, stock, orders, users and stores from an admin dashboard.
 
-The system handles everything from product browsing and cart management to
-order processing, user authentication, in-app messaging, and multi-store support.
+I built it end to end as a freelance full-stack developer: the React storefront (product listings, cart, checkout and the delivery flow), the admin dashboard, and the Node.js/Express REST API with JWT authentication on MongoDB.
 
----
+## Features
+
+### Customer side
+- Multi-category product catalog (clothing, fireworks, toys)
+- Browsing across store branches
+- Shopping cart with quantity management
+- Checkout and order placement, with payment integration and an integrated delivery system
+- Registration, login and personal order history
+- In-app messaging between customers and the store
+
+### Admin side
+- Product management: add, edit, delete and manage stock levels
+- Order management with status tracking
+- User account management
+- Store management across branches
+- Sales and order overview dashboard
+
+## Tech stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React (responsive) |
+| Backend | Node.js + Express, REST APIs |
+| Database | MongoDB |
+| Auth | JWT |
 
 ## Screenshots
-
-### Home
-![Home](screenshots/home.png)
 
 ### Stores
 ![Stores](screenshots/stores.png)
@@ -29,62 +48,12 @@ order processing, user authentication, in-app messaging, and multi-store support
 ### Cart
 ![Cart](screenshots/cart.png)
 
-### User Login
+### Customer login
 ![Login](screenshots/loginuser.png)
 
 ### Messaging
-![Message](screenshots/message.png)
+![Messaging](screenshots/message.png)
 
 ---
 
-## Features
-
-### 🛍️ Customer Side
-- Multi-category product catalog (clothing, fireworks, toys)
-- Multi-store browsing — explore products across different store branches
-- Shopping cart with quantity management
-- Full checkout and order placement flow
-- 💳 Payment integration
-- 👤 User registration, login, and personal order history
-- 💬 In-app messaging system for customer-store communication
-
-### 🛠️ Admin Side
-- Product management — add, edit, delete, and manage stock levels
-- Order management with status tracking
-- User account management
-- Store management across multiple branches
-- Sales and order overview dashboard
-
----
-
-## Tech Stack
-
-| Layer    | Technology            |
-|----------|-----------------------|
-| Frontend | React                 |
-| Backend  | Node.js + Express     |
-| Database | MongoDB               |
-| Auth     | JWT (JSON Web Tokens) |
-
----
-
-## Project Status
-
-✅ **Live in production** — actively used by a real retail client in Lebanon.
-
----
-
-## Notes
-
-This repository contains a sanitized portfolio version of the project.
-All sensitive configuration, credentials, payment keys, and client-specific
-data have been excluded. No real user data is present in this repository.
-
----
-
-## Developer
-
-**Robin Hmaidan** — Full-Stack Developer  
-🔗 [LinkedIn](https://linkedin.com/in/robin-hmaidan-09a9a0230) · 
-🐙 [GitHub](https://github.com/Robin-Hmaidan) ·
-📧 robinhmiadan01@gmail.com
+Built by **Robin Hmaidan**, full-stack developer · [GitHub](https://github.com/Robin-Hmaidan) · [LinkedIn](https://linkedin.com/in/robin-hmaidan-09a9a0230) · robinhmiadan01@gmail.com
